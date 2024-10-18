@@ -34,7 +34,6 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'kyoresuas/Download-macOS'
     steps:
       - uses: actions/checkout@v4
       
